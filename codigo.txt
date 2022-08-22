@@ -8,4 +8,4 @@ with open('dataframe.txt', mode='w', encoding='utf-8') as file:
 
 with open('diccionario.txt', mode = 'w', encoding='utf-8') as file:
     file.write(str(df.to_dict()))
-    print('diccionario guardado en archivo exitosamente')
+    print('diccionario guardado en archivo exitosamente')f
